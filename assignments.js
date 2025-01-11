@@ -7,9 +7,9 @@ const continent = "Africa";
 
 let population = 235203683;
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
 //  ASSIGNMENT 2 Declare a variable called 'isIsland' and set its value according to your
 //  country. The variable should hold a Boolean value. Also declare a variable
@@ -17,22 +17,22 @@ console.log(population);
 //  Log the types of 'isIsland', 'population', 'country' and 'language'
 // to the console
 
-let isIsland = true;
+// let isIsland = true;
 
-let language;
+// let language;
 
-console.log(typeof isIsland);
-console.log(typeof language);
-console.log(typeof country);
-console.log(typeof population);
+// console.log(typeof isIsland);
+// console.log(typeof language);
+// console.log(typeof country);
+// console.log(typeof population);
 
 // ASSIGNMENT 3 (let, const and var)Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one)Think about which variables should be const variables (whichvalues will never change, and which might change?). Then, change these variables to const. Try to change one of the changed variables now, and observe what happens
 language = "Yoruba";
 
-console.log(language);
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(language);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 /*population = 2000000; WILL NOT CHANGE INSTEAD WILL FLAG AN ERROR BECAUSE CONST IS A KEYWORD TO DECLARE VARIABLES THAT CANNOT BE MUTATED
 
 /* ASSIGNMENT 4  
@@ -49,18 +49,24 @@ people speak portuguese'
 */
 const finlandPopulatiion = 6000000;
 const averagePopulation = 30000000;
-const description =
-  country +
-  " is in " +
-  continent +
-  " , " +
-  " and its " +
-  population +
-  " milliion people speak " +
-  language;
+// const description =
+//   country +
+//   " is in " +
+//   continent +
+//   " , " +
+//   " and its " +
+//   population +
+//   " milliion people speak " +
+//   language;
 console.log(population / 2);
 population++;
 console.log(population);
 console.log(population > finlandPopulatiion);
 console.log(population < averagePopulation);
+// console.log(description);
+
+//ASSIGNMENT 5
+// Recreate the 'description' variable from the last assignment, this time
+// using the template literal syntax
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
