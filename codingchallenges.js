@@ -17,20 +17,32 @@
 */
 
 // FIRST VERSION
-
-// const marksMass = 78;
-// const marksHeight = 1.69;
-// const johnsMass = 92;
-// const johnsHeight = 1.95;
+const marksMass = 78;
+const marksHeight = 1.69;
+const johnsMass = 92;
+const johnsHeight = 1.95;
 
 //SECOND VERSION
-const marksMass = 95;
-const marksHeight = 1.88;
-const johnsMass = 85;
-const johnsHeight = 1.76;
+// const marksMass = 95;
+// const marksHeight = 1.88;
+// const johnsMass = 85;
+// const johnsHeight = 1.76;
 
 const markBMI = marksMass / marksHeight ** 2;
 const johnBMI = johnsMass / (johnsHeight * johnsHeight);
-const markHigherBMI = markBMI > johnBMI;
+// const markHigherBMI = markBMI > johnBMI;
 
-console.log(markBMI, johnBMI, markHigherBMI);
+console.log(markBMI, johnBMI);
+// console.log(markHigherBMI);
+
+// CODIING CHALLENGE 2
+// 1. Print a nice output to the console, saying who has the higher BMI. The message
+// is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+// 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+// BMI (28.3) is higher than John's (23.9)!"+
+
+if (markBMI >= 27.3) {
+  console.log(`Marks's BMI (${markBMI}) is higher than John's (${johnBMI})`);
+} else {
+  console.log(`John's (${johnBMI}) is higher than Mark's (${markBMI})`);
+}
