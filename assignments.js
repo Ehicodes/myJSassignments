@@ -1,11 +1,11 @@
 // ASSIGNMENT 1 (VALUES AND VARIABLES)  Declare variables called 'country', 'continent' and 'population' and
 // assign their values according to your own country (population in millions) Log their values to the console
 
-const country = "Nigeria";
+// const country = "Nigeria";
 
-const continent = "Africa";
+// const continent = "Africa";
 
-let population = 235203683;
+// let population = 235203683;
 
 // console.log(country);
 // console.log(continent);
@@ -27,7 +27,7 @@ let population = 235203683;
 // console.log(typeof population);
 
 // ASSIGNMENT 3 (let, const and var)Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one)Think about which variables should be const variables (whichvalues will never change, and which might change?). Then, change these variables to const. Try to change one of the changed variables now, and observe what happens
-language = "Yoruba";
+// language = "Yoruba";
 
 // console.log(language);
 // console.log(country);
@@ -58,15 +58,15 @@ const averagePopulation = 30000000;
 //   population +
 //   " milliion people speak " +
 //   language;
-console.log(population / 2);
-population++;
-console.log(population);
-console.log(population > finlandPopulatiion);
-console.log(population < averagePopulation);
+// console.log(population / 2);
+// population++;
+// console.log(population);
+// console.log(population > finlandPopulatiion);
+// console.log(population < averagePopulation);
 // console.log(description);
 
 //ASSIGNMENT 5
 // Recreate the 'description' variable from the last assignment, this time
 // using the template literal syntax
-const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
-console.log(description);
+// const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+// console.log(description);
