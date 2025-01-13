@@ -22,7 +22,7 @@ let population = 237;
 
 // console.log(typeof isIsland);
 // console.log(typeof language);
-// console.log(typeof country);
+// console.log(typeof country);d
 // console.log(typeof population);
 
 // ASSIGNMENT 3 (let, const and var)Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one)Think about which variables should be const variables (whichvalues will never change, and which might change?). Then, change these variables to const. Try to change one of the changed variables now, and observe what happens
@@ -77,7 +77,7 @@ console: 'Portugal's population is above average'. Otherwise, log a string like
 'Portugal's population is 22 million below average' (the 22 is the average of 33
 minus the country's population)
 2. After checking the result, change the population temporarily to 13 and then to
-130. See the different results, and set the population back to original */
+130. See the different results, and set the population back to original 
 
 if (population > 33) {
   console.log(`${country}'s  population is above average`);
@@ -88,3 +88,19 @@ if (population > 33) {
     `${country}'s population is ${belowAverage} million below average`
   );
 }
+*/
+
+//ASSIGNMENT 7
+// 1. Predict the result of these 5 operations without executing them:
+// '9' - '5';
+// '19' - '13' + '17';
+// '19' - '13' + 17;
+// '123' < 57;
+// 5 + 6 + '4' + 9 - 4 - 2;
+// 2. Execute the operations to check if you were righT
+
+console.log("9" - "5"); //-> 4
+console.log("19" - "13" + "17"); // -> '617'
+console.log("19" - "13" + 17); // -> 23
+console.log("123" < 57); //-> faslse
+console.log(5 + 6 + "4" + 9 - 4 - 2); //1143
