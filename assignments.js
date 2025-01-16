@@ -125,7 +125,7 @@ is this happening?
 when you input 1
 8. Reflect on why we should use the === operator and type conversion in this
 situation
-*/
+
 const numNeighbours = Number(
   prompt("How many neighbour countries does your country have?")
 );
@@ -136,3 +136,4 @@ if (numNeighbours === 1) {
 } else {
   console.log("No borders");
 }
+*/
