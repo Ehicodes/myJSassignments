@@ -68,46 +68,42 @@ Test data:
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
 
-//QUES 1 AND 2
+//QUES 1
 // const teamDolphins = 96 + 108 + 89;
 // const teamKoalas = 88 + 91 + 110;
 // const teamDolphinsAverage = teamDolphins / 3;
 // const teamKoalasAverage = teamKoalas / 3;
 // console.log(teamDolphins, teamKoalas, teamDolphinsAverage, teamKoalasAverage);
 
+// //QUES 2
 // if (teamDolphinsAverage > teamKoalasAverage) {
-//   console.log("Team Dolphins  wins the trophy!!");
+//   console.log("Team Dolphins  wins the trophy!! trophy 🏆 !!!");
+// } else if (teamKoalasAverage > teamDolphinsAverage) {
+//   console.log("Team Koalas  wins the  trophy 🏆 !!!");
 // } else if (teamDolphinsAverage === teamKoalasAverage) {
 //   console.log("There's a draw!!!");
 // }
 
-//BONUS 1
-const greaterThan100 = true;
-// const teamDolphins = 97 + 112 + 101;
-// const teamKoalas = 109 + 95 + 123;
-// const teamDolphinsAverage = teamDolphins / 3;
-// const teamKoalasAverage = teamKoalas / 3;
-// console.log(teamDolphins, teamKoalas, teamDolphinsAverage, teamKoalasAverage);
-
-// if (teamKoalasAverage > teamDolphinsAverage && !greaterThan100) {
-//   console.log("You need 100 points to win the trophy Team K");
-// } else if (teamKoalasAverage > teamDolphinsAverage && greaterThan100) {
-//   console.log("Team Koalas wins the trophy!!!");
-// } else if (teamDolphins > teamKoalasAverage && !greaterThan100) {
-//   console.log("You need 100 points to win the trophy Team D");
-// } else if (teamDolphinsAverage > teamKoalasAverage && greaterThan100) {
-//   console.log("Team Dolphins wins the trophy!!");
-// }
-
-//BONUS 2
+//BONUS 1 and BONUS 2
 const teamDolphins = 97 + 112 + 101;
 const teamKoalas = 109 + 95 + 106;
 const teamDolphinsAverage = teamDolphins / 3;
 const teamKoalasAverage = teamKoalas / 3;
-console.log(teamDolphins, teamKoalas, teamDolphinsAverage, teamKoalasAverage);
+console.log(teamDolphinsAverage, teamKoalasAverage);
 
-
-
-  if (teamDolphinsAverage === teamKoalasAverage &&
-    teamDolphinsAverage &&
-    teamKoalasAverage) || greaterThan100)
+if (teamDolphinsAverage > teamKoalasAverage && teamDolphinsAverage >= 100) {
+  console.log("Dolphins win the trophy🏆");
+} else if (
+  teamKoalasAverage > teamDolphinsAverage &&
+  teamKoalasAverage >= 100
+) {
+  console.log("Koalas wins the trophy 🏆");
+} else if (
+  teamDolphinsAverage === teamKoalasAverage &&
+  teamDolphinsAverage >= 100 &&
+  teamKoalasAverage >= 100
+) {
+  console.log("There's a draw!!!, both team wins the trophy🏆");
+} else {
+  console.log("No one wins the trophy😢");
+}
