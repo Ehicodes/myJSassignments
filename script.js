@@ -202,17 +202,69 @@ console.log(century);
 
 // if (favourite !== 9) console.log("Why not 9?");
 
-const hasDriversLicense = true; //A
-const hasGoodVision = true; //B
+// const hasDriversLicense = true; //A
+// const hasGoodVision = true; //B
 
-console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense && hasGoodVision);
 
-console.log(hasDriversLicense || hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
 
-console.log(!hasDriversLicense);
+// console.log(!hasDriversLicense);
 
-if (hasDriversLicense && hasGoodVision) {
-  console.log("Sarah is able to drive");
-} else {
-  console.log("Someone else should drive...");
+// // if (hasDriversLicense && hasGoodVision) {
+// //   console.log("Sarah is able to drive");
+// // } else {
+// //   console.log("Someone else should drive...");
+// // }
+
+// const isTired = false; //C
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
+//   console.log("Sarah is good to drive!");
+// } else {
+//   console.log("Sarah shoud not drive");
+// }
+
+const day = "tuesday";
+
+switch (day) {
+  case "monday":
+    console.log("I wake up early for school");
+    console.log("Then attend lectures");
+    break;
+  case "tuesday":
+    console.log("I wake up super early");
+    break;
+  case "wednesday":
+    console.log("I have my day off");
+    break;
+  case "thursday":
+  case "friday":
+    console.log("I work on my system");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend");
+    break;
+  default:
+    console.log("not a valid day");
 }
+
+if (day === "monday") {
+  console.log(`I wake up early for school    
+
+Then attend lectures`);
+} else if (day === "tuesday") {
+  console.log("I wake up super early");
+} else if (day === "wednesday") {
+  console.log("I have my day off");
+} else if (day === "thursday" || day === "friday") {
+  console.log("I relax a bit");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("I enjoy my weekend and go to Church");
+} else {
+  console.log("Not a valid day");
+}
+
+// with the switch statement, we might write a lot more code and it is easy to understand.
