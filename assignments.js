@@ -5,7 +5,7 @@ const country = "Nigeria";
 
 // const continent = "Africa";
 
-// let population = 237;
+const population = 237;
 // console.log(country);
 // console.log(continent);
 // console.log(population);
@@ -16,7 +16,7 @@ const country = "Nigeria";
 //  Log the types of 'isIsland', 'population', 'country' and 'language'
 // to the console
 
-// let isIsland = true;
+let isIsland = true;
 
 // let language;
 
@@ -26,7 +26,7 @@ const country = "Nigeria";
 // console.log(typeof population);
 
 // ASSIGNMENT 3 (let, const and var)Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one)Think about which variables should be const variables (whichvalues will never change, and which might change?). Then, change these variables to const. Try to change one of the changed variables now, and observe what happens
-// language = "Yoruba";
+language = "English";
 
 // console.log(language);
 // console.log(country);
@@ -138,7 +138,7 @@ if (numNeighbours === 1) {
 }
 */
 
-/* ASSIGNMENT 8
+/* ASSIGNMENT 9
 Use a switch statement to log the following string for the given 'language':
 chinese or mandarin: 'MOST number of native speakers!'
 spanish: '2nd place in number of native speakers'
@@ -170,7 +170,7 @@ for all other simply log 'Great language too :D'
 //     console.log("Great Language too :)");
 // }
 
-/* ASSIGNMENT 9
+/* ASSIGNMENT 10
 1. If your country's population is greater than 33 million, use the ternary operator
 to log a string like this to the console: 'Portugal's population is above average'.
 Otherwise, simply log 'Portugal's population is below average'. Notice how only
@@ -179,9 +179,29 @@ one word changes between these two sentences!
 130. See the different results, and set the population back to original
 */
 
-const size = 33;
+// const size = 33;
 
-const population = size > 33 ? "above" : "below";
-console.log(
-  `${country}'s Population is ${size > 33 ? "greater" : "below"} average`
-);
+// const population = size > 33 ? "above" : "below";
+// console.log(
+//   `${country}'s Population is ${size > 33 ? "greater" : "below"} average`
+// );
+
+//ASSIGNMENT 11
+/*
+1. Comment out the previous code so the prompt doesn't get in the way
+2. Let's say Sarah is looking for a new country to live in. She wants to live in a
+country that speaks english, has less than 50 million people and is not an
+island.
+3. Write an if statement to help Sarah figure out if your country is right for her.
+You will need to write a condition that accounts for all of Sarah's criteria. Take
+your time with this, and check part of the solution if necessary.
+4. If yours is the right country, log a string like this: 'You should live in Portugal :)'. If
+not, log 'Portugal does not meet your criteria :('
+5. Probably your country does not meet all the criteria. So go back and temporarily
+change some variables in order to make the condition true (unless you live in
+Canada :D
+*/
+
+if ((country = "Nigeria" && population < 50 && !isIsland)) {
+  console.log("You Should live in Nigeria :)");
+}
