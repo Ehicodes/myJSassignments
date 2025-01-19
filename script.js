@@ -226,45 +226,54 @@ console.log(century);
 //   console.log("Sarah shoud not drive");
 // }
 
-const day = "tuesday";
+// const day = "tuesday";
 
-switch (day) {
-  case "monday":
-    console.log("I wake up early for school");
-    console.log("Then attend lectures");
-    break;
-  case "tuesday":
-    console.log("I wake up super early");
-    break;
-  case "wednesday":
-    console.log("I have my day off");
-    break;
-  case "thursday":
-  case "friday":
-    console.log("I work on my system");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("Enjoy the weekend");
-    break;
-  default:
-    console.log("not a valid day");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("I wake up early for school");
+//     console.log("Then attend lectures");
+//     break;
+//   case "tuesday":
+//     console.log("I wake up super early");
+//     break;
+//   case "wednesday":
+//     console.log("I have my day off");
+//     break;
+//   case "thursday":
+//   case "friday":
+//     console.log("I work on my system");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoy the weekend");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
 
-if (day === "monday") {
-  console.log(`I wake up early for school    
+// if (day === "monday") {
+//   console.log(`I wake up early for school
 
-Then attend lectures`);
-} else if (day === "tuesday") {
-  console.log("I wake up super early");
-} else if (day === "wednesday") {
-  console.log("I have my day off");
-} else if (day === "thursday" || day === "friday") {
-  console.log("I relax a bit");
-} else if (day === "saturday" || day === "sunday") {
-  console.log("I enjoy my weekend and go to Church");
-} else {
-  console.log("Not a valid day");
-}
+// Then attend lectures`);
+// } else if (day === "tuesday") {
+//   console.log("I wake up super early");
+// } else if (day === "wednesday") {
+//   console.log("I have my day off");
+// } else if (day === "thursday" || day === "friday") {
+//   console.log("I relax a bit");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("I enjoy my weekend and go to Church");
+// } else {
+//   console.log("Not a valid day");
+// }
 
 // with the switch statement, we might write a lot more code and it is easy to understand.
+
+//TERNARY OPERATOR
+const age = 15;
+// age >= 18
+//   ? console.log("I like to drink wine 🍷")
+//   : console.log("I like to drink water🚰");
+
+const drink = age >= 18 ? "wine 🍷" : "water";
+console.log(`i like to drink ${age >= 18 ? "wine 🍷" : "water"}`);
