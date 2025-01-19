@@ -5,7 +5,7 @@ const country = "Nigeria";
 
 // const continent = "Africa";
 
-let population = 237;
+// let population = 237;
 // console.log(country);
 // console.log(continent);
 // console.log(population);
@@ -148,24 +148,40 @@ arabic: '5th most spoken language'
 for all other simply log 'Great language too :D'
 */
 
-const language = "yoruba";
+// const language = "yoruba";
 
-switch (language) {
-  case "chinese or mandarin":
-    console.log("MOST number of native speakers!");
-    break;
-  case "spanish":
-    console.log("2nd place in number of native speakers");
-    break;
-  case "english":
-    console.log("3rd place");
-    break;
-  case "hindi":
-    console.log("Number 4");
-    break;
-  case "arabic":
-    console.log("5th most spoken language");
-    break;
-  default:
-    console.log("Great Language too :)");
-}
+// switch (language) {
+//   case "chinese or mandarin":
+//     console.log("MOST number of native speakers!");
+//     break;
+//   case "spanish":
+//     console.log("2nd place in number of native speakers");
+//     break;
+//   case "english":
+//     console.log("3rd place");
+//     break;
+//   case "hindi":
+//     console.log("Number 4");
+//     break;
+//   case "arabic":
+//     console.log("5th most spoken language");
+//     break;
+//   default:
+//     console.log("Great Language too :)");
+// }
+
+/* ASSIGNMENT 9
+1. If your country's population is greater than 33 million, use the ternary operator
+to log a string like this to the console: 'Portugal's population is above average'.
+Otherwise, simply log 'Portugal's population is below average'. Notice how only
+one word changes between these two sentences!
+2. After checking the result, change the population temporarily to 13 and then to
+130. See the different results, and set the population back to original
+*/
+
+const size = 33;
+
+const population = size > 33 ? "above" : "below";
+console.log(
+  `${country}'s Population is ${size > 33 ? "greater" : "below"} average`
+);
