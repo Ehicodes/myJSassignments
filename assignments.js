@@ -1,11 +1,11 @@
 // ASSIGNMENT 1 (VALUES AND VARIABLES)  Declare variables called 'country', 'continent' and 'population' and
 // assign their values according to your own country (population in millions) Log their values to the console
 
-const country = "Nigeria";
+// const country = "Nigeria";
 
 // const continent = "Africa";
 
-const population = 237;
+// const population = 237;
 // console.log(country);
 // console.log(continent);
 // console.log(population);
@@ -16,7 +16,7 @@ const population = 237;
 //  Log the types of 'isIsland', 'population', 'country' and 'language'
 // to the console
 
-let isIsland = true;
+// let isIsland = true;
 
 // let language;
 
@@ -26,7 +26,7 @@ let isIsland = true;
 // console.log(typeof population);
 
 // ASSIGNMENT 3 (let, const and var)Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one)Think about which variables should be const variables (whichvalues will never change, and which might change?). Then, change these variables to const. Try to change one of the changed variables now, and observe what happens
-language = "English";
+// language = "English";
 
 // console.log(language);
 // console.log(country);
@@ -201,7 +201,13 @@ not, log 'Portugal does not meet your criteria :('
 change some variables in order to make the condition true (unless you live in
 Canada :D
 */
+const country = "Nigeria";
+const population = 37;
+const language = "English";
+const isIsland = false;
 
-if ((country = "Nigeria" && population < 50 && !isIsland)) {
-  console.log("You Should live in Nigeria :)");
+if (language === "English" && population < 50 && !isIsland) {
+  console.log(`You should live in ${country} :)`);
+} else {
+  console.log(`${country} does not meet your criteria :(`);
 }
