@@ -128,17 +128,12 @@ Hints:
 § Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 */
 
-billValue = 430;
-tip = 15 / 100;
-const tipAmount = billValue * tip;
-if (billValue >= 50 && billValue <= 300) {
-         console.log(`the bill was ${billValue}` * )
-} else {
-  console.log(`${billValue}` * 0.2);
-}
-
-
-// console.log(
-//     `${billValue}` * 0.15
-//   )`the bill was ${billValue}, the tip was  ${tip}` &&
-//     `the total value ${billValue + tip}`;
+const billValue = 430;
+const tip =
+  billValue >= 50 && billValue <= 300 ? billValue * 0.15 : billValue * 0.2; //number 1
+console.log(
+  `The bill was ${billValue}, and the tip was ${tip}, and the total value ${
+    //number 2
+    billValue + tip
+  } `
+);
