@@ -270,10 +270,10 @@ console.log(century);
 // with the switch statement, we might write a lot more code and it is easy to understand.
 
 //TERNARY OPERATOR
-const age = 15;
+// const age = 15;
 // age >= 18
 //   ? console.log("I like to drink wine 🍷")
 //   : console.log("I like to drink water🚰");
 
-const drink = age >= 18 ? "wine 🍷" : "water";
-console.log(`i like to drink ${age >= 18 ? "wine 🍷" : "water"}`);
+// const drink = age >= 18 ? "wine 🍷" : "water";
+// console.log(`i like to drink ${age >= 18 ? "wine 🍷" : "water"}`);
